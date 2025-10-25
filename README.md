@@ -9,8 +9,11 @@ FAAM utilizes a lightweight 3D convolutional network combined with multi-scale f
 # Usage
 ## On Ubuntu
 ### 1. Training on a single GPU
->> python train.py configs/yolc.py
+```bash
+python train.py configs/yolc.py
 ### 2. Training on multiple GPUs
+```bash
 >> ./dist_train.sh configs/yolc.py <your_gpu_num>
 ### eval
+```bash
 >> python hieum_eval_.py
